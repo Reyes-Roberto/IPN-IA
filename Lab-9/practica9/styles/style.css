@@ -1,0 +1,176 @@
+body {
+    background-color: whitesmoke;
+    font-family:'Arial Narrow Bold', sans-serif;
+    
+}
+
+header {
+    background-color: #4b97fa;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: .75em;
+    height: 2em;
+    
+}
+
+header>nav >ul{
+    padding: 20;
+    /*agregar un tamaño de fuente relativo*/
+    display: flex;
+    list-style: none;
+    
+}
+header>a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+.links{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+
+#left{
+    flex-direction: column;
+    float: left;
+    margin-right: 1.5rem;
+    width: 20rem;
+}
+#left>nav{
+    background-color:rgba(201, 201, 197,.4);
+    margin-top: 1.5em;
+    padding: .5em;
+    font-size: 1.125rem;
+}
+#left>nav>ul>li{
+    list-style: none;
+    padding: .2em;
+}
+#messages{
+    background-color: rgba(201, 201, 197,.4);
+    margin-top: 1.5em;
+    padding: .75em;
+}
+#messages h3{
+    background-color: rgba(121, 178, 252, .5);
+    padding: 1em 5em 1em 1em;
+}
+#messages img{
+    float: left;
+    margin-right: .9rem;
+}
+#messages ul li{
+    padding: .5em;
+    font-size: .8rem;
+    list-style: none;
+    background-color: white;
+}
+#datos{
+    background-color: #edebe1;
+    color: #c2beac;
+    padding: .725em;
+}
+
+/*principal*/
+main{
+    display: flex;   
+}
+#principal{
+    padding-top: 20em;
+    flex-direction: column;
+    padding: .1em;
+}
+#tabVen{
+    padding: .7em;
+}
+#principal h2{
+    font-size: 1.50em;
+}
+
+#address1{
+    float: left;
+    font-style: oblique;
+}
+#address2{
+    
+    float: right;
+    font-style: oblique;
+}
+
+#button{
+    width: 9em;
+    margin-top:1em;
+    background-color: #4b97fa;
+    padding: .2em .8em;
+    
+}
+#button a{
+    text-decoration: none;
+    color: white;
+}
+/*derecho*/
+aside{
+    flex-direction: column;
+    width: 30rem;
+    margin-left: 1.5em;
+}
+.cab{
+    background-color:rgba(201, 201, 197,.4);
+    padding: .8em;
+    font-size: 1.125rem;
+    margin-bottom: 1.5em;
+}
+.cab h3{
+    background-color: rgba(121, 178, 252, .5);
+    padding: 1em;
+}
+.cab ul{
+    list-style: none;
+    
+}
+.cab img{
+    
+    float: left;
+    margin-right: .9rem;
+}
+#cambios span{
+    color: #c2c2c2;
+    float: left;
+    font-size: 1.4em;
+    padding-right: 1em;
+    padding-left: .5em;
+    
+}
+#cambios p{
+    font-size: .8em;
+    margin-right: .5em;
+    margin: .5em;
+    font-style: oblique;
+}
+#cambios ul li{
+    padding: .5em;
+    justify-content: end;
+    list-style: none;
+    background-color: white;
+}
+#bestSellers ul li{
+    display: flex;
+    padding-top: 1em;
+    font-size: .8em;
+    list-style: none;
+    background-color: white;
+}
+#bestSellers img{
+    float: left;
+    margin-right: .9rem;
+}
+hr{
+    margin-top: 10em;
+}
